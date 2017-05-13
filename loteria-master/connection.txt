@@ -1,0 +1,14 @@
+104.131.251.194
+/var/www/dev
+
+UN: anil
+PW: tubanquitad3v
+
+
+DB:
+======
+104.131.251.194
+un:marinelifeadmin
+pw:1qa2ws3edWS!
+
+20wash.sharma@gmail.com

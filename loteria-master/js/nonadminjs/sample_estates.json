@@ -1,0 +1,4 @@
+var data = {"estates": [{"estate_id": 2, "estate_title": "Atardecer en Embalse", "featured_image_url": "http://www.panoramio.com/photo/27932",
+ "longitude": -64.404945, "latitude": -32.202924, "estate_type": "Apartment", "estate_status": "Sold/New", "estate_price": "$20000",
+"estate_short_address": "San Digo, CA, USA", "detail_link": "link"}
+]}

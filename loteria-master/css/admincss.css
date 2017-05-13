@@ -1,0 +1,360 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 11, 2014, 11:02:34 AM
+    Author     : podamibe-nepal
+*/
+.container{
+   width:auto;
+}
+input[type='file'] {
+  color: transparent;
+}
+.ui-autocomplete{
+   // z-index: 1100!important;
+   // display:block;
+}
+.unorganizedfromscratch{
+    list-style: none;
+    background:gray;
+    color: white;
+    
+    padding:0px;
+    margin-left:0px;
+    text-align:center;
+    
+}
+.unorganizedfromscratchli:hover{
+    background: greenyellow;
+     color: black;
+     cursor:pointer;
+}
+.dashboardtop {
+    background:#2094DF;
+    height:35px;
+    color:white;
+    padding:5px;
+	  font-size:16px;
+         // margin-left:15px;
+}
+.dashboardtop a {
+    text-decoration: none;
+    color:white;
+}
+.dashboard {
+    background:#2094DF;
+    height:615px;
+   width:12%;
+    //float:left;
+    padding:5px;
+	  color: white;
+	  font-size:14px;      
+}
+.changecontainer {
+   // height:500px;
+    //float:left;
+    //width:%;
+    //margin-left:2px;
+    //float:right;
+   /// width:75%;
+    //overflow-x: scroll;
+    //margin-left:200px;
+    //margin-top:10px;
+    //position:absolute;
+    //margin-top: 20px;
+    //background-color:red;
+   // max-width: 710px;
+}
+.userdivheader {
+    background: #2094DF;
+    border-radius:5px;
+    height:40px;
+	margin-top:5px;
+        //width:100%;
+}
+.userlisting {
+	padding:5px;
+	height:110px;
+	// float:left;
+}
+.userlisting table {
+    font-size:12px;
+}
+.udhfirstlink {
+    float:right;
+}
+.udhfirstlink li {
+   list-style-type: none;
+   float:left;
+   position:relative;
+   margin-left: 5px;
+   margin-top:5px;   
+}
+.udhfirstlink a {
+    color:#fff;
+    text-decoration:none;
+    display:block;
+    width:97%; 
+    height:30px;
+    padding:3px 3px;
+    line-height: 22px;
+    border-radius: 3px;
+    background:none;
+	margin-right:30px;
+	outline:none;
+	outline-offset:0px;
+}
+.udhfirstlink a:hover {
+	color:#000;
+	background-color:#e7e7e7;
+}
+.udhfirstlink   a:focus {
+	background-color:#e7e7e7;
+	color:#000;
+}
+.udhsecondlink {
+    float:left;
+    margin-right:5px;
+}
+.secondlinkkofirst {
+    float:left;
+    margin-top: 8px;
+    margin-left:5px;
+	color:#fff;
+}
+.secondlinkkosecond {
+    margin-top:3px;
+}
+.udhthirdlink {
+   vertical-align: middle;
+   width:17%;
+   margin-left:265px;   
+   position:absolute;
+   margin-top:3px; 
+   //float:left;
+}
+#searchtextbox {
+    // width:100%;
+}
+#useredittable {
+	width: 500px;
+    font-size: 12px;  
+}
+#useredittable input {
+        height: 28px;
+}
+#register_virology {
+    display:none;
+    font-size:12px;
+}
+#register_virology table {
+    width: 500px;
+}
+#paging {
+    text-align: center;
+}
+#gametypetable {
+    //margin-left: 50%;
+}
+#lotterytable {
+    //margin-left: 20%;
+}
+#winnertable {
+    //margin-left: 100px;
+}
+body {
+	background-color:#ececec;
+}
+#welcome {
+	float:right;
+	font-weight:bold;
+	margin:0px;
+}
+.dashboard>a:link {
+    text-decoration: none;
+}
+#message_dashboard {
+	font-size:40px;
+	margin-top:20%;
+	font-weight:bold;
+	text-shadow: 5px 5px 5px #2094DF;
+  color: #2094DF;
+}
+.dashboard>p>a:hover {
+	background-color:#e7e7e7;
+	text-decoration:none;
+	border-radius:3px;
+	color:#000;
+	padding:5px;
+}
+#logout {
+	height:20px;
+	padding:5px;
+	border-radius:3px;
+	color:#000;
+	line-height:6px;
+	color:#fff;
+}
+#logout:hover {
+	color:#000;
+}
+.dashboard>p>a {
+	color:#fff;
+}
+.dashboard>p>a:focus {
+	background-color:#e7e7e7;
+	color:#000;
+	padding:5px;
+	outline:none;
+	outline-offset:0px;
+	border-radius:3px;
+}
+.dashboard>p>a:active {
+	background-color:#e7e7e7;
+	color:#000;
+	padding:5px;
+	outline:none;
+	outline-offset:0px;
+	border-radius:3px;
+}
+.dashboard>p>a:hover, .dashboard>p>a:focus {
+	text-decoration:none;
+}
+#changepasswordform>input {
+	margin-top:10px;
+}
+.float {
+  display: block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.float:hover {
+  -webkit-transform: translateY(-5px);
+  -ms-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.grow {
+display: inline-block;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transform: translateZ(0);
+transform: translateZ(0);
+box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.grow:hover, .grow:focus, .grow:active {
+-webkit-transform: scale(1.1);
+transform: scale(1.1);
+}
+#signin {
+	margin-top:50%;
+	border:1px solid #ccc;
+	padding:20px;
+	border-radius:10px;
+	height:auto;
+}
+#signin>input {
+	margin-top:10px;
+}
+#signin>label {
+	padding-left:20px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  border-top: 1px solid #2094DF;
+  border-bottom: 1px solid #2094DF;
+}
+@media only screen and (max-width:1320px) and (min-width:993px){
+
+    body{
+       // background-color:red; 
+    }  
+}
+@media only screen and (max-width:992px) and (min-width:775px)
+{
+    
+  body{
+       // background-color:yellow; 
+        
+    }
+    .changecontainer {
+    //height:500px;
+    
+    //width:400px;
+    //margin-left:2px;
+    //background-color:gray;
+}
+    
+}
+@media only screen and (max-width:774px) and (min-width:481px)
+{
+
+    body{
+       // background-color:green; 
+    }   
+     .navbar-top-links .dropdown-user {
+        left: 0!important;
+        right: auto!important;
+    }
+
+
+}
+@media only screen and (max-width:480px) and (min-width:301px)
+{
+   
+ body{
+      //  background-color:red; 
+    } 
+    .navbar-top-links .dropdown-user {
+        left: 0!important;
+        right: auto!important;
+    }
+
+}
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 300px) {
+/* Styles */
+ body{
+       // background-color:greenyellow; 
+    }  
+     .navbar-top-links .dropdown-user {
+        left: 0!important;
+        right: auto!important;
+    }
+
+
+}
+.navbar-default .navbar-brand {
+	color: royalblue;
+}
+#top_navigation_1 {
+	margin-bottom: 0px;
+}
+#navigation_top {
+	background-color: #2094df;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+}
+.col-md-10 {
+	width: 100%;
+}
+#logout_button {
+	padding: 0px 5px;
+}
+sup {
+    top: 0px;
+}
+#sabkolistgarnediv {
+    margin-top: 20px;
+}
